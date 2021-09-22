@@ -1,5 +1,6 @@
 {
   "name": "maths-practice",
+  "homepage": "https://satvikdandale.github.io/Maths-Practice/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -37,6 +38,8 @@
   "main": "index.js",
   "author": "",
   "license": "ISC",
-  "devDependencies": {},
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
+  },
   "description": ""
 }

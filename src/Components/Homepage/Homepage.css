@@ -1,0 +1,13 @@
+.homepage {
+    display: flex;
+    flex-direction: column;
+}
+.homepage__content {
+    display: flex;
+    flex-direction: row;
+}
+.questions-select {
+    margin-left: 2rem; 
+    display: flex;
+    align-items: center;
+}

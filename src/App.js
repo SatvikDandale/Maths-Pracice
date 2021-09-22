@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "./App.css";
 import Header from "./Components/Header/Header";
 import Homepage from "./Components/Homepage/Homepage";
-import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
+import { BrowserRouter, Route } from "react-router-dom";
 import Division from "./Components/Division/Division";
 
 class App extends Component {
@@ -18,7 +18,6 @@ class App extends Component {
               component={(props) => (
                 <>
                   <Homepage {...props} />
-                  <h1>Hi</h1>
                 </>
               )}
             />

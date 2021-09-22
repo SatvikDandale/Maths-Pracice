@@ -5,12 +5,8 @@ import "./Division.css";
 
 export default (props) => {
   const [difficulty, setDifficulty] = React.useState("");
-  const [a, setA] = React.useState(true);
 
   const difficultySelect = (selection) => {
-      console.log("HERER")
-    console.log(a, !a)
-      setA(!a);
     setDifficulty(selection.value);
   };
 
@@ -27,7 +23,7 @@ export default (props) => {
           />
         </div>
       </div>
-      {difficulty && <Question a={a} difficulty={difficulty} />}
+      {difficulty && <Question difficulty={difficulty} />}
     </div>
   );
 };

@@ -49,15 +49,31 @@ input::-webkit-inner-spin-button {
 }
 
 /* Firefox */
-input[type=number] {
+input[type="number"] {
   -moz-appearance: textfield;
 }
 
 @media only screen and (max-device-width: 480px) {
-    .answer{
-        flex-direction: column;
-    }
-    .answer input {
-        margin-bottom: 1rem
-    }
+  .answer {
+    flex-direction: column;
+  }
+  .answer input {
+    margin-bottom: 1rem;
+  }
+  .division-content {
+    flex-direction: column;
+  }
+  .difficultySelect {
+    margin: 0;
+  }
+}
+.numbers-1 {
+  border-right: 1px black solid;
+  border-radius: 0px 0px 10px 0px;
+}
+.numbers-2 {
+  border-top: 1px black solid;
+}
+.question-formatted {
+  margin-bottom: 1rem;
 }

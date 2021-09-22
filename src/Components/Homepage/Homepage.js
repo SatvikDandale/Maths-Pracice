@@ -1,11 +1,11 @@
 import React from "react";
-import { Dropdown, Selection } from "react-dropdown-now";
+import { Dropdown } from "react-dropdown-now";
 import "react-dropdown-now/style.css";
 import "./Homepage.css";
 
 const Homepage = (props) => {
   const dropdownSelect = (selection) => {
-    if (selection.value == "Simple Division") {
+    if (selection.value === "Simple Division") {
       props.history.push("/division")
     }
   };

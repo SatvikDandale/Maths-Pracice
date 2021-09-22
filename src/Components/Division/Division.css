@@ -66,6 +66,9 @@ input[type="number"] {
   .difficultySelect {
     margin: 0;
   }
+  .question-formatted {
+    margin-top: 1rem;
+  }
 }
 .numbers-1 {
   border-right: 1px black solid;
